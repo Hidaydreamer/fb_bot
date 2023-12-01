@@ -58,7 +58,7 @@ func main() {
 		log.Println("read body error: ", err.Error())
 		return
 	}
-
+        //彩蛋
 	log.Println("get info: ", string(body))
 
 	var jsonData KPRsp
